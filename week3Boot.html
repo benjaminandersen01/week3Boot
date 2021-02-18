@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjis Tacos: Order Today!</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        #hero {
+            height: 400px;
+            background-image: url(https://www.gannett-cdn.com/-mm-/f3ee05e7de57db4fce9e367b33f3b3605361a36b/c=0-297-4554-2870/local/-/media/2017/10/04/Reno/RGJ/636427223472143309-Jimboy-s-Catering-Taco-Platter.jpeg?width=3200&height=1808&fit=crop&format=pjpg&auto=webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          
+        }
+        .img-container{
+            text-align: center;
+        }
+        .col-sm-4{
+            background-color: gold;
+        }
+        .col-sm-8{
+            background-color: lightgreen;
+        }
+        .header-container h1{
+          color: red;
+        
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Benjis Tacos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="file:///Users/benjaminandersen/Desktop/Mobile%20App./Week%203/week3Boot.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://media0.giphy.com/media/3o7TKCTt7cNHg10utO/giphy.gif">Space Taco!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://media.tenor.com/images/c80c99b8d22f51ed585cefa4d2d7562f/tenor.gif" tabindex="-1">Dancing Taco!</a>
+              </li>
+            </ul>
+            
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://media0.giphy.com/media/3o7TKCTt7cNHg10utO/giphy.gif">Space Taco!</a></li>
+                      <li><a class="dropdown-item" href="https://media.tenor.com/images/c80c99b8d22f51ed585cefa4d2d7562f/tenor.gif">Dancing Taco!</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="file:///Users/benjaminandersen/Desktop/Mobile%20App./Week%203/week3Boot.html">Home</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div id="hero" class="w-100 d-flex flex-column justify-content-center align-items-center text">
+        <h1 class="text-dark text-center fw-bold">Best Tacos In The Business!</h1>
+        <p class="text-dark text-center fw-bold">Swing by For our Weekly 2 for $4 Taco Tuesday Deal (Available 2pm-6pm) </p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <p class="text-dark text-center fw-bold">About Us</p>
+                <div class="img-container">
+                    <img id="img" src="https://img.icons8.com/pastel-glyph/2x/person-male.png" class="img-responsive img-rounded">
+                </div>
+                <p class="text-dark text-center">I started this taco business on the side when im not doing homework.</p>
+            </div>
+
+            <div class="col-sm-8">
+                <h2 class="text-dark text-center fw-bold">Newsletter Signup</h2>
+                <p class="text-justify">If you would be interested in signing up for our newsletter to stay update to with our latest deals and new items. Enter your information below to never miss a deal!</p>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4 bg-success">
+                Article #1
+            </div>
+            <div class="col-sm-4 bg-warning">
+                Article #2
+            </div>
+            <div class="col-sm-4 bg-danger">
+                Article #3
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Trademark 2021 - Benjis Tacos</a>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script>
+        fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.midlandathletics.com%2Frss.php")
+            .then(function(result) {
+                console.log('API result', result);
+
+                return result.json()
+            }).then(function(jsonInfo) {
+
+                console.log(jsonInfo);
+
+                jsonInfo.items.forEach(function(item) {
+                    console.log("Got this item!", item.title);
+                })
+            })
+    </script>
+</body>
+</html>
